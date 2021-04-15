@@ -1,0 +1,17 @@
+Módulo D - Condições em JavaScript (Parte 1) - Aula 11
+    1° -> Condições Simples
+            if (condição) {
+                true
+            }
+    2° -> Condições Compostas
+    3° -> Condições Aninhadas
+    4° -> Condições Múltiplas
+    5° -> Exercícios Propostos
+<Sequências>
+    Comando -> var n = 3 -> n += 2 -> window.alert(n)
+<Condições>
+    if (condição) {
+        true
+    } else {
+        false
+    }
