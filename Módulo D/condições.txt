@@ -1,12 +1,4 @@
 Módulo D - Condições em JavaScript (Parte 1) - Aula 11
-    1° -> Condições Simples
-            if (condição) {
-                true
-            }
-    2° -> Condições Compostas
-    3° -> Condições Aninhadas
-    4° -> Condições Múltiplas
-    5° -> Exercícios Propostos
 <Sequências>
     Comando -> var n = 3 -> n += 2 -> window.alert(n)
 <Condições>
@@ -15,3 +7,40 @@ Módulo D - Condições em JavaScript (Parte 1) - Aula 11
     } else {
         false
     }
+    1° -> Condições Simples
+            if (condição) {
+                true
+            }
+    2° -> Condições Compostas
+            if (condição) {
+                true
+            } else {
+                false
+            }
+Condições (Parte 2) - Curso JS Aula 12
+    3° -> Condições Aninhadas
+        if (cond1) {
+            bloco1
+        } else {
+
+            if (cond2) {
+                bloco2
+            } else {
+                bloco3
+            }
+        }
+    4° -> Condições Múltiplas
+            switch (expressão) {
+                case valor 1:
+                    bloco1
+                    break
+                case valor 2:
+                    bloco2
+                    break
+                case valor 3:
+                    bloco3
+                    break
+                default:
+                    bloco4
+                    break
+            }
