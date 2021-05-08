@@ -1,0 +1,29 @@
+Módulo E - Repetições em JavaScript
+    Estrutura de repetição
+        1° -> Repetições com teste no início
+                        while (condição) {
+                            bloco
+                        }
+        2° -> Repetições teste no final
+                           do {
+                            bloco
+                        } while (condição)
+---------------------------------------------------------------------------
+Repetições (Parte 1) - Curso JS Aula 13
+    Função ComerPizza()
+function comerPizza() {
+   while (temFatia()) {
+       comerFatia()
+   }
+}
+---------------------------------------------------------------------------
+Repetições (Parte 2)
+    3° -> Repetições com variável de controle
+            for (inicio;teste;incr) {
+                bloco
+            }
+            
+ 4° -> Exercícios Propostos
+    Exercícios JavaScript (Parte 4)
+        
+    
