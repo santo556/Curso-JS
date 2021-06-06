@@ -29,6 +29,18 @@
                 Buscar volores
                     num.indexOF(7)
         -> Uso de funções e eventos
+        Toda função precisa ter de uma chamada -> parâmetro -> ação -> retorno 
+                < O que são funções >
+                    ° São ações executadas assim que são chamadas ou em decorrência de algum evento.
+                    ° Uma função pode receber parâmetros e retorno um resultado.
+                function parimp(n) {
+                    if (n%2==0) {
+                        return 'par'
+                    } else {
+                        return 'impar'
+                    }
+                }
+                let res = parimp(11)
         -> Passagem de Parâmetoros
         -> Exercícios Propostos
         -> Próximos Passos
