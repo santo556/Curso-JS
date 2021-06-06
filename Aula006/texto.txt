@@ -1,0 +1,41 @@
+Tratamento de dados - Curso JavaScript - ex002
+<Data Types>
+    number
+    string
+// Guardando 
+    var nome = window.prompt('Qual é seu nome?')
+    window.alert('É um grande prazer em te conhecer, ' + nome)
+ex003
+    var num1 = Number.parseInt(window.prompt('Digite um número: '))
+    var num2 = Number.parseInt(window.prompt('Digite outro número: '))
+    var s = num1 + num2
+    window.alert('A soma dos valores é ' + String(s)) // Concateção
+    // number + number para adição
+    // string + string para concateção 
+< String - Número >
+    1° Number.parseInt(n)
+    2° Number.parseFloat(n)
+    3° Number(n) modo simplificado
+< Número - String>
+    1° String(n)
+    2° n.toString()
+    3° s.lenght // quantos caracteres a string tem 
+    4° s.toUpperCase() // tudo para 'MAIÚSCULAS'
+    5° S.ToLowerCase() // tudo para 'minúsculas'
+    // Formatando Strings
+        var s = 'Javascript'
+        'Eu estou aprendendo s ' // não faz interpolação
+        'Eu estou aprendendo ' + s // usa concatenação
+        `Eu estou aprendendo ${s} ` + s // usa template strings
+ex004
+    var nome = window.prompt('Qual é seu nome? ')
+    document.write(`Olá, <strong>${nome}<strong>! Seu nome tem ${nome.length} letras. <br/>`)
+    document.write(`Seu nome em maiúsculas é ${nome.toUpperCase()} <br/>`)
+    document.write(`Seu nome em minúsculas é ${nome.toLowerCase()}`)
+----------------------------
+    // Formantando Números
+        var n1 = 1545.5
+        n1.toFixed(2)
+        '1545.50'
+        n1.tofixed(2).replace('.', ',')
+        n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) // string localizada

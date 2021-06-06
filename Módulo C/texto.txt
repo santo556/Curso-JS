@@ -1,0 +1,38 @@
+Entendendo o DOM
+    > DOM > Document Object Model
+    > Árvore DOM
+    > Manipulando DOM
+<Cuidado!>
+    1° Não pule
+    2° Anote tudo
+    3° Duas telas
+    4° Pratique
+    5° Compartolhe
+Árvore DOM
+        window
+location | Document | history
+             html
+          head | body
+    meta title | h1 p p div
+                      |  
+                    strnog  
+Selecionando
+    por Marca
+        getElementsByTagName()
+    por ID
+        getElementsById()
+    por Nome
+        getElementsByName()
+    por Classe
+        getElementsByClassName()
+    por Seletor
+        querySelector()
+        querySelectorAll()
+            // toda div é representada por uma #
+            // toda class é representada por um .
+Eventos DOM - Curso JavaScript
+    <div> -> Eventos é tudo que possa acontecer com essa div
+        <Funções>
+            function ação(){
+                bloco
+            }

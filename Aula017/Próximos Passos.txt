@@ -1,0 +1,29 @@
+Nossa rota até aqui.
+    JavaScript - Aula 17
+        fundamentos
+        variáveis e dados
+        operadores
+        condições
+        repetições
+        arrays
+        functions
+    Os próxomos passos em JavaScript.
+        HTML5 e CSS3
+        functions
+        objetos
+        modularização
+        RegEx
+        JSON
+        AJAX
+        NodeJs
+--------------------------------------------------------------------------
+    array
+        let num = [5,8,4]
+        num
+        5  | 8 | 4
+        0    1   2
+    object
+        let amigo = {nome:'José', sexo'M', peso:85.4, engordar(p){}}
+        amigo
+        José |  M   | 85.4 | [functions]
+        nome   sexo   peso   engordar()

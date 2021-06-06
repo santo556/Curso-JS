@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(23, 150, 235);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+input {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100px;
+}
+div#res {
+    margin-top: 20px;
+}
